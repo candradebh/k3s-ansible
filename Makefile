@@ -6,7 +6,6 @@
 # deploy system  external smoke-test post-install clean
 default: cluster
 
-
 cluster:
 	ansible-playbook \
     		playbooks/site.yml \
