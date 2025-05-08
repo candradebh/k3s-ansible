@@ -12,4 +12,7 @@ cluster:
     		-i ../inventory.yml
 
 
-
+reset:
+	ansible-playbook \
+    		playbooks/reset.yml \
+    		-i ../inventory.yml
